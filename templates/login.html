@@ -1,0 +1,29 @@
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Login
+{% endblock %}
+
+{% block body%}
+    <h3>
+        Login To El Biblio
+    </h3>
+    <form>
+        <div>
+            <label> email</label>
+            <input type="email" id="emailInput"/>
+        </div>
+
+        <div>
+            <label> Password</label>
+            <input type="password" id="passwordInput"/>
+        </div>
+
+        <div>
+            <button type="submit">  Login  </button>
+        </div>
+        <a href="/register">Don't have an Account! Register Here</a>
+    </form>
+
+{% endblock %}
